@@ -1,0 +1,7 @@
+set nu
+map<F2> :bprev<CR>
+map<F3> :bnext<CR>
+set hlsearch
+"<ctrl-l> redraws the screen and removes any search highlighting.
+nnoremap <silent> <C-L> :nohl<CR>
+colorscheme slate        
